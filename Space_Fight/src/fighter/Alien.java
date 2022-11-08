@@ -15,7 +15,8 @@ public class Alien extends Sprite {
         loadImage("src/resources/Alien.png");
         getImageDimensions();
     }
-
+    // how the aliens move in the game is here coded
+    // they move automatically in x-direction (x-1)
     public void move() {
 
         if (x < 0) {
