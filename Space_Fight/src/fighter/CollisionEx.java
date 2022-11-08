@@ -1,0 +1,31 @@
+package fighter;
+import java.awt.EventQueue;
+import javax.swing.JFrame;
+
+public class CollisionEx extends JFrame {
+
+    public CollisionEx() {
+        
+        initUI();
+    }
+    
+    private void initUI() {
+        
+        add(new Board());
+        
+        setResizable(false);
+        pack();
+        
+        setTitle("Space_Fighter");
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+
+    public static void main(String[] args) {
+        
+        EventQueue.invokeLater(() -> {
+            CollisionEx start = new CollisionEx();
+            start.setVisible(true);
+        });
+    }
+}
