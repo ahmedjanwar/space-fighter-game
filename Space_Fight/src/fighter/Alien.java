@@ -1,6 +1,9 @@
+// Author  : Ahmed Jemal Anwar
+// ID e200132
+// Space fight 2D Game
 package fighter;
 
-public class Alien extends Sprite {
+public class Alien extends Sprite { // alien spirit
 
     private final int INITIAL_X = 400;
 

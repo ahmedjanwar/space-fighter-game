@@ -1,10 +1,13 @@
+// Author  : Ahmed Jemal Anwar
+// ID e200132
+// Space fight 2D Game
 package fighter;
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 
-public class CollisionEx extends JFrame {
+public class Collision extends JFrame {
 
-    public CollisionEx() {
+    public Collision() {
         
         initUI();
     }
@@ -24,7 +27,7 @@ public class CollisionEx extends JFrame {
     public static void main(String[] args) {
         
         EventQueue.invokeLater(() -> {
-            CollisionEx start = new CollisionEx();
+            Collision start = new Collision();
             start.setVisible(true);
         });
     }

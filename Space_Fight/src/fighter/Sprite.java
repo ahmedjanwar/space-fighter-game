@@ -1,3 +1,6 @@
+// Author  : Ahmed Jemal Anwar
+// ID e200132
+// Space fight 2D Game
 package fighter;
 import java.awt.Image;
 import java.awt.Rectangle;
